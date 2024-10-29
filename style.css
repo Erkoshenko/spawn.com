@@ -1,0 +1,71 @@
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #4740ff, #7015ff); /* Темно-синий к глубокому фиолетовому */
+    color: #E0E0F0;
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    padding: 5px;
+    background: linear-gradient(135deg, #2a2eff, #6500ffe3); /* Тёмно-синий к фиолетовому */
+    border-bottom: 4px solid #5000ffb8;
+}
+
+h1 {
+    font-size: 1.8em;
+    color: #F0EFFF;
+}
+
+.intro {
+    padding: 30px 20px;
+    font-size: 1.2em;
+    line-height: 1.5;
+    background: linear-gradient(135deg, #2600ff74, #5000ff5e); /* Глубокий фиолетовый к мягкому лавандовому */
+    border-radius: 15px;
+    margin: 20px auto;
+    max-width: 800px;
+    color: #E2DAF5;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 40px;
+    flex-wrap: wrap;
+}
+
+.button {
+    background: linear-gradient(135deg, #3b00ff, #902affb1); /* Темный фиолетовый к светлому лавандовому */
+    padding: 20px 40px;
+    font-size: 1.2em;
+    width: 400px;
+    font-weight: bold;
+    color: #F0EFFF;
+    text-decoration: none;
+    border-radius: 40px;
+    transition: background 0.3s, transform 0.3s;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.button:hover {
+    background: #8f00ffa1; /* Яркий градиент при наведении */
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+    
+}
+
+footer {
+    padding: 15px;
+    background: linear-gradient(135deg, #7a00ffb1, #6500ff);
+    border-top: 2px solid #662affb1;
+    color: #B8B3CF;
+    margin-top: auto;
+}
